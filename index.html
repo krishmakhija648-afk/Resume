@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Resume">
+    <title>Krish Makhija | Resume</title>
+    
+    <!-- Google Fonts for typography enhancement -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar using Flexbox -->
+    <header class="navbar">
+        <div class="logo">K.<span>M</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Leadership</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Krish Makhija.</h1>
+                <h2 class="tagline">BBA Student at IIM Bangalore.</h2>
+                <p class="bio">
+                    Currently pursuing my BBA in Digital Business & Entrepreneurship (2025–2028). I am passionate about marketing strategy, consumer research, and driving operational success through effective leadership and project management.
+                </p>
+                <a href="#experience" class="cta-button">View My Experience</a>
+            </div>
+            <div class="hero-image-container">
+                <div class="profile-placeholder">KM</div>
+            </div>
+        </section>
+
+        <!-- Education Section (Reusing About CSS) -->
+        <section id="about" class="about-section">
+            <h3 class="section-title">Education</h3>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p style="margin-bottom: 5px; color: var(--text-primary); font-size: 1.2rem;"><strong>Indian Institute of Management Bangalore</strong></p>
+                    <p>BBA in Digital Business & Entrepreneurship | 2025–2028</p>
+                    <br>
+                    <p style="margin-bottom: 5px; color: var(--text-primary); font-size: 1.2rem;"><strong>Choithram School, Indore — Class XII (Board)</strong></p>
+                    <p>Business Administration: 96 | Marketing: 97</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section (Reusing Projects CSS) -->
+        <section id="experience" class="projects-section">
+            <h3 class="section-title">Work Experience</h3>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-overline">Summer 2022</p>
+                        <h4 class="project-title">Vishnu Traders — Wholesale Arecanut Business</h4>
+                        <div class="project-description">
+                            <p style="margin-bottom: 15px; color: var(--accent); font-family: var(--font-heading); font-size: 1.1rem;">General Manager</p>
+                            <p>• Managed daily operations for a 10–12 member team; owned coordination between ownership, suppliers, and execution.</p>
+                            <p>• Resolved 10+ daily operational and workforce issues during peak demand by prioritizing bottlenecks, helping maintain uninterrupted supply and on-time order fulfillment.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-overline">Summer 2023</p>
+                        <h4 class="project-title">MGR Developers — Real Estate Development & Construction</h4>
+                        <div class="project-description">
+                            <p style="margin-bottom: 15px; color: var(--accent); font-family: var(--font-heading); font-size: 1.1rem;">Trainee</p>
+                            <p>• Worked with engineers and contractors on execution workflows, vendor coordination, costing, and documentation.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Leadership & Projects Section -->
+        <section id="projects" class="projects-section">
+            <h3 class="section-title">Leadership & Projects</h3>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-overline">Class XII</p>
+                        <h4 class="project-title">Entrepreneurship Project</h4>
+                        <div class="project-description">
+                            <p style="margin-bottom: 15px; color: var(--accent); font-family: var(--font-heading); font-size: 1.1rem;">Team Leader / Project Lead</p>
+                            <p>• Led an 8-member team delivering structured diagnostics across 5+ industries using the 7Ps framework; translated primary research into actionable recommendations.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-overline">Theatre Group</p>
+                        <h4 class="project-title">Sahaj Residency & Choithram School</h4>
+                        <div class="project-description">
+                            <p style="margin-bottom: 15px; color: var(--accent); font-family: var(--font-heading); font-size: 1.1rem;">Creative Director / Lead Coordinator</p>
+                            <p>• Directed 15+ productions and led teams of ~30 participants per show, owning planning, rehearsals, and delivery.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-overline">Competitions</p>
+                        <h4 class="project-title">Case Competitions & Simulations</h4>
+                        <div class="project-description">
+                            <p>• Reached finals in multiple inter-school and national-level case competitions across marketing, strategy, and entrepreneurship.</p>
+                            <p>• <strong>CESIM business simulations:</strong> made iterative pricing and marketing decisions based on performance data, balancing demand, operational capacity, and profitability under time-bound conditions.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills Section using CSS Grid -->
+        <section id="skills" class="skills-section">
+            <h3 class="section-title">Skills & Interests</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h4>Core Skills</h4>
+                    <ul>
+                        <li>Marketing Strategy</li>
+                        <li>Consumer Research</li>
+                        <li>Data Analysis</li>
+                        <li>Presentation & Storytelling</li>
+                        <li>PowerPoint</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h4>Interests</h4>
+                    <ul>
+                        <li>Theatre & Literature</li>
+                        <li>Marketing & Product Strategy</li>
+                        <li>Entrepreneurship</li>
+                        <li>Cooking</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h3 class="section-title text-center">Get In Touch</h3>
+            <p class="contact-text">
+                Currently looking for new opportunities in marketing, strategy, and business management. Whether you have a question or just want to connect, feel free to reach out to me via email!
+            </p>
+            <div style="margin-bottom: 30px; font-family: var(--font-body); color: var(--text-primary);">
+                <p><strong>Email:</strong> <a style="color: var(--accent);" href="mailto:krish.makhija25@iimb.ac.in">krish.makhija25@iimb.ac.in</a></p>
+                <p><strong>Phone:</strong> +91 6264280360</p>
+            </div>
+            <a href="mailto:krish.makhija25@iimb.ac.in" class="cta-button">Say Hello</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & Built by Krish Makhija</p>
+    </footer>
+
+</body>
+</html>
